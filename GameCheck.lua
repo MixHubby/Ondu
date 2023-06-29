@@ -1,4 +1,3 @@
-if game.PlaceId == 6403373529 then
 local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source'))()
 local Window = ArrayField:CreateWindow({
         Name = "ArrayField Example Window",
