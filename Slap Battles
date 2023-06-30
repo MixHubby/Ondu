@@ -15,20 +15,6 @@ local UI = Atlas.new({
     Discord = "https://discord.gg/xu5dDS3Pb9"; -- works if UseLoader is set to true, will be copied to clipboard if player presses "Copy Invite" button
 })
 
-local UI = Atlas.new({
-    Name = "OnduSB.lujit";
-    ConfigFolder = "MyScript";
-    Credit = "Made By SomeDeveloper";
-    Color = Color3.fromRGB(50,50,50);
-    Bind = "LeftControl";
-    UseLoader = true;
-    FullName = "My Script Hub";
-    CheckKey = function(inputtedKey)
-        return inputtedKey=="pucharse_#$$sa8%4g5l5fw9sx%c"
-    end;
-    Discord = "https://discord.gg/xu5dDS3Pb9";
-})
-
 local Updates = UI:CreatePage("Updates") -- creates a page
 
 local logs = MyPage:CreateSection("Logs")
