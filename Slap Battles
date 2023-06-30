@@ -1,14 +1,14 @@
 local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
 
 local UI = Atlas.new({
-    Name = "My Script"; -- script name (required)
-    ConfigFolder = "MyScript"; -- folder name to save configs to, set this to nil if you want to disable configs saving
-    Credit = "Made By RoadToGlory#9879"; -- text to appear if player presses the "i" button on their UI (optional)
-    Color = Color3.fromRGB(255,0,0); -- theme color for UI (required)
-    Bind = "LeftControl"; -- keybind for toggling the UI, must be a valid KeyCode name
+    Name = "Ondu Hub | [Normal] Slap Battles"; -- script name (required)
+    ConfigFolder = "nil"; -- folder name to save configs to, set this to nil if you want to disable configs saving
+    Credit = "Made By Some_Mixed"; -- text to appear if player presses the "i" button on their UI (optional)
+    Color = Color3.fromRGB(50,50,50); -- theme color for UI (required)
+    Bind = "RightShift"; -- keybind for toggling the UI, must be a valid KeyCode name
     -- Atlas Loader:
     UseLoader = true; -- whether to use Atlas Loader or not, if set to false than CheckKey and Discord are ignored
-    FullName = "My Script Hub"; -- works if UseLoader is set to true, can be same as Name argument, shown on loader frame
+    FullName = "Slap Battles [Normal]"; -- works if UseLoader is set to true, can be same as Name argument, shown on loader frame
     CheckKey = function(inputtedKey) -- works if UseLoader is set to true, where inputtedKey is the key inputted by the player
         return inputtedKey=="pucharse_#$$sa8%4g5l5fw9sx%c"
     end;
@@ -16,15 +16,15 @@ local UI = Atlas.new({
 })
 
 local UI = Atlas.new({
-    Name = "My Script";
+    Name = "OnduSB.lujit";
     ConfigFolder = "MyScript";
-    Credit = "Made By RoadToGlory#9879";
-    Color = Color3.fromRGB(255,0,0);
+    Credit = "Made By SomeDeveloper";
+    Color = Color3.fromRGB(50,50,50);
     Bind = "LeftControl";
     UseLoader = true;
     FullName = "My Script Hub";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="key1234"
+        return inputtedKey=="pucharse_#$$sa8%4g5l5fw9sx%c"
     end;
     Discord = "https://discord.gg/xu5dDS3Pb9";
 })
